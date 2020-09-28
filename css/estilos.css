@@ -251,6 +251,7 @@ header {
 
 .acerca-de{
     padding-top:40px;
+    
 }
 
 .contenedor-acerca-de{
@@ -258,6 +259,7 @@ header {
     justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
+
 }
 
 .card-acerca{
@@ -266,6 +268,12 @@ header {
     border-radius: 3px;
     padding: 20px 10px;
     margin-top: 40px;
+}
+
+.lista{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .card-acerca i{
@@ -422,6 +430,145 @@ header {
     width: 60%;
 }
 
+/*Servicio 4*/
+.servicio-cont4{
+    background: #f2f2f2;
+}
+.servicio4{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.img-servicio4{
+    width: 50%;
+}
+.img-servicio4 img{
+    width: 100%;
+    vertical-align: top;
+}
+.servicio4 .contenido-servicio4 ul li{
+    list-style: none;
+    border-bottom: 4px dotted rgba(75, 0, 224, 0.698);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: rgba(75, 0, 224, 0.698);
+}
+.contenido-servicio4{
+    width: 50%;
+    padding-left: 30px;
+}
+.contenido-servicio4 h3{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contenido-servicio4 p{
+    text-align: justify;
+    margin-bottom: 40px;
+    width: 90%;
+    color: #774c4c;
+}
+.contenido-servicio4 ul{
+    padding-left: 10px;
+    width: 60%;
+}
+
+/*Servicio 5*/
+.servicio-cont5{
+    background: #f2f2f2;
+}
+.servicio5{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.img-servicio5{
+    width: 50%;
+}
+.img-servicio5 img{
+    width: 100%;
+    vertical-align: top;
+}
+.servicio5 .contenido-servicio5 ul li{
+    list-style: none;
+    border-bottom: 4px dotted rgba(75, 0, 224, 0.698);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: rgba(75, 0, 224, 0.698);
+}
+.contenido-servicio5{
+    width: 50%;
+    padding-left: 30px;
+}
+.contenido-servicio5 h3{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contenido-servicio5 p{
+    text-align: justify;
+    margin-bottom: 40px;
+    width: 90%;
+    color: #774c4c;
+}
+.contenido-servicio5 ul{
+    padding-left: 10px;
+    width: 60%;
+}
+
+
+/*Servicio 6*/
+.servicio-cont6{
+    background: #f2f2f2;
+}
+.servicio6{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.img-servicio6{
+    width: 50%;
+}
+.img-servicio6 img{
+    width: 100%;
+    vertical-align: top;
+}
+.servicio6 .contenido-servicio6 ul li{
+    list-style: none;
+    border-bottom: 4px dotted rgba(75, 0, 224, 0.698);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: rgba(75, 0, 224, 0.698);
+}
+.contenido-servicio6{
+    width: 50%;
+    padding-left: 30px;
+}
+.contenido-servicio6 h3{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contenido-servicio6 p{
+    text-align: justify;
+    margin-bottom: 40px;
+    width: 90%;
+    color: #774c4c;
+}
+.contenido-servicio6 ul{
+    padding-left: 10px;
+    width: 60%;
+}
+
 /* Galeria */
 
 .galerias{
@@ -475,7 +622,24 @@ header {
 .galeria-img:hover .extra-galeria{
     transform: translate(0);
 }
+/* Banner one */
 
+.cards-banner-one {
+    width: 100%;
+    height: 350px;
+    background: url("/img/pina-messina-pelUkQqVVbA-unsplash\ \(1\).jpg");
+    margin-bottom: 40px;
+}  
+.cards-banner-one .content {
+width: 40%;
+padding: 90px 0 0 30px;
+color: #fff;
+}
+
+.cards-banner-one p,
+.cards-banner-two p {
+margin: 10px 0 20px 0;
+}
 
 /* Precioss */
 
@@ -649,6 +813,7 @@ footer p{
 .footer-logo{
     width: 27%;
     vertical-align: top;
+    margin-right: 350px;
 }
 
 .footer-logo img{
@@ -658,10 +823,11 @@ footer p{
 
 /*Formulario*/
 form{
-    background:#fff;
+    background: #f2f2f2;
     padding: 40px 0;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+
 }
 .form{
     width: 100%;
@@ -912,11 +1078,15 @@ input{
     }
 
     .footer-contact{
-        width: 100%;
+        width: 100%; 
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .footer-logo{
-        width: 100%;
+        width: 30%;
     }
 }
 
@@ -926,5 +1096,9 @@ input{
     }
     form .grupo{
         margin-left: 10px;
+        font-size: 40px;
+    }
+    .cards-banner-one .content{
+    width: 50%;
     }
 }
